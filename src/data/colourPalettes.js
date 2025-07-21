@@ -2,7 +2,7 @@ const colourPalettes = {
   sunset: [
     {
       id: "sunset-1",
-      name: "Warm Sunset",
+      name: "Evening Glow",
       colours: ["#F3E0EC", "#EAD5E6", "#F2BEFC", "#CA9CE1", "#685F74"],
       tags: ["purple", "pink", "warm", "romantic"],
     },
