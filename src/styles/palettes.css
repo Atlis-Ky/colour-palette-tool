@@ -1,0 +1,21 @@
+:root {
+
+/* PALETTE - MAIN */
+
+--main-accent: #f2766b;
+--main-secondary: #586166;
+--main-tertiary: #ecc5c1;
+--main-dark: #081b26;
+--main-text-dark: #222;
+--main-text-light: #f7f7f7;
+
+/* PALETTE - ALTERNATES */
+--alt-one: #EF6351;
+--alt-two: #f2766b;
+--alt-three: #F7A399;
+--alt-four: #FBC3BC;
+--alt-five: #FFE3E0;
+
+--border-radius: 12px;
+
+}
