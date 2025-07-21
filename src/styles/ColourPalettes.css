@@ -74,6 +74,33 @@
   gap: 2rem;
 }
 
+.search-results-info {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--main-text-light); /* Changed from --main-secondary */
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--main-text-light); /* Changed from --main-secondary */
+}
+
+.no-results p:first-child {
+  font-size: 1.2rem;
+  color: var(--main-text-light);
+  margin-bottom: 0.5rem;
+}
+
+.no-results p:last-child {
+  font-size: 1rem;
+  color: var(--main-text-light); /* Added explicit color */
+  opacity: 0.8;
+}
+
 @media (max-width: 768px) {
   .colour-palettes {
     padding: 1.5rem 0.5rem;
