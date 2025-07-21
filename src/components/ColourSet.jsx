@@ -1,8 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import ColourCard from "./ColourCard";
 import "../styles/ColourSet.css";
 
 const ColourSet = ({ palette }) => {
+  const [copiedCSS, setCopiedCSS] = useState(false);
+  const [copiedJSON, setCopiedJSON] = useState(false);
+
+  const copyCSS = async () => {
+    const cssContent = `:root {
+  --colour-one: ${palette.colours[0]};
+  --colour-two: ${palette.colours[1]};
+  --colour-three: ${palette.colours[2]};
+  --colour-four: ${palette.colours[3]};
+  --colour-five: ${palette.colours[4]};
+}`;
+
+    try {
+      await navigator.clipboard.writeText(cssContent);
+      setCopiedCSS(true);
+      setTimeout(() => setCopiedCSS(false), 2000);
+    } catch (err) {
+      console.log("Failed to copy CSS");
+    }
+  };
+
+  const copyJSON = async () => {
+    const jsonContent = JSON.stringify(
+      {
+        name: palette.name,
+        colours: {
+          one: palette.colours[0],
+          two: palette.colours[1],
+          three: palette.colours[2],
+          four: palette.colours[3],
+          five: palette.colours[4],
+        },
+      },
+      null,
+      2
+    );
+
+    try {
+      await navigator.clipboard.writeText(jsonContent);
+      setCopiedJSON(true);
+      setTimeout(() => setCopiedJSON(false), 2000);
+    } catch (err) {
+      console.log("Failed to copy JSON");
+    }
+  };
+
   return (
     <div className="colour-set">
       <div className="colour-set-header">
@@ -27,11 +73,11 @@ const ColourSet = ({ palette }) => {
       </div>
 
       <div className="colour-set-actions">
-        <button className="action-button primary">
-          <span>Export Palette</span>
+        <button className="action-button primary" onClick={copyCSS}>
+          <span>{copiedCSS ? "Copied!" : "Copy CSS"}</span>
         </button>
-        <button className="action-button secondary">
-          <span>Save Favourite</span>
+        <button className="action-button secondary" onClick={copyJSON}>
+          <span>{copiedJSON ? "Copied!" : "Copy JSON"}</span>
         </button>
       </div>
     </div>
