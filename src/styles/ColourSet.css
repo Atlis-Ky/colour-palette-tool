@@ -1,0 +1,123 @@
+.colour-set {
+  background: var(--main-dark);
+  border: 2px solid var(--main-secondary);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.colour-set:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border-color: var(--main-accent);
+}
+
+.colour-set-header {
+  margin-bottom: 1rem;
+}
+
+.colour-set-name {
+  font-family: "Special Gothic Expanded One", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: var(--main-text-light);
+  margin: 0 0 0.8rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.colour-set-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.colour-tag {
+  background: var(--main-accent);
+  color: var(--main-text-light);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+
+.colour-cards-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.colour-set-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.action-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-family: "Special Gothic Expanded One", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.action-button.primary {
+  background: var(--main-accent);
+  color: var(--main-text-light);
+}
+
+.action-button.primary:hover {
+  background: var(--alt-one);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(242, 118, 107, 0.3);
+}
+
+.action-button.secondary {
+  background: transparent;
+  color: var(--main-text-light);
+  border: 2px solid var(--main-secondary);
+}
+
+.action-button.secondary:hover {
+  background: var(--main-secondary);
+  border-color: var(--main-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(88, 97, 102, 0.3);
+}
+
+.action-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .colour-set {
+    padding: 1rem;
+  }
+
+  .colour-set-name {
+    font-size: 1.3rem;
+  }
+
+  .colour-set-actions {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .action-button {
+    width: 100%;
+    padding: 1rem;
+  }
+}
