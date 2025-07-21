@@ -5,9 +5,20 @@
   flex: 1;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 8px;
+  border-radius: 0; /* removes individual card radius */
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: none; /* removes individual shadows to avoid visual conflicts */
+}
+
+/* Keeps rounded corners only on first and last cards */
+.colour-card:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.colour-card:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .colour-card:hover {

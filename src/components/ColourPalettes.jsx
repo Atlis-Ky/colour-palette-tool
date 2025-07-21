@@ -21,15 +21,6 @@ const ColourPalettes = () => {
 
   return (
     <div className="colour-palettes">
-      <div className="colour-palettes-header">
-        <h2 className="section-heading">
-          <span className="highlight-word">Curated</span> Colour Collections
-        </h2>
-        <p className="section-description">
-          
-        </p>
-      </div>
-
       <div className="category-filters">
         {categories.map((category) => (
           <button
