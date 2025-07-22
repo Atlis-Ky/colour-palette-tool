@@ -17,28 +17,20 @@
 
   /* PALETTE - CATEGORY GROUPS */
   --group-sunset: #ff6b35;
-  --group-sunset-rgba: 255, 107, 53;
 
   --group-nature: #20b2aa;
-  --group-nature-rgba: 32, 178, 170;
 
   --group-modern: #0066cc;
-  --group-modern-rgba: 0, 102, 204;
 
   --group-vintage: #f5deb3;
-  --group-vintage-rgba: 245, 222, 179;
 
   --group-vibrant: #ff1493;
-  --group-vibrant-rgba: 255, 20, 147;
 
   --group-pastel: #dda0dd;
-  --group-pastel-rgba: 221, 160, 221;
 
   --group-monochrome: #e0f6ff;
-  --group-monochrome-rgba: 224, 246, 255;
 
   --group-earth: #d2691e;
-  --group-earth-rgba: 210, 105, 30;
 
   /* PALETTE - CATEGORY HOVER VARIANTS */
   --group-sunset-hover: #e55a2b;

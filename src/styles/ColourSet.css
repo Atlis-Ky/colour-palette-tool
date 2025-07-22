@@ -71,8 +71,6 @@
   letter-spacing: 0.05em;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
 }
 
 .action-button.primary {

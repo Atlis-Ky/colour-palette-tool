@@ -7,7 +7,6 @@
   transition: all 0.3s ease;
   border-radius: 0;
   overflow: hidden;
-  box-shadow: none;
 }
 
 /* keeps rounded corners only on first and last cards */
