@@ -150,7 +150,7 @@ const colourPalettes = {
     },
     {
       id: "modern-6",
-      name: "Monochrome",
+      name: "Greyscale",
       colours: ["#000000", "#404040", "#808080", "#C0C0C0", "#FFFFFF"],
       tags: ["black", "white", "grey", "classic", "timeless"],
     },

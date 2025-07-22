@@ -46,7 +46,7 @@ const ColourPalettes = ({ searchTerm }) => {
         {categories.map((category) => (
           <button
             key={category}
-            className={`category-filter ${
+            className={`category-filter ${category} ${
               selectedCategory === category ? "active" : ""
             }`}
             onClick={() => setSelectedCategory(category)}
