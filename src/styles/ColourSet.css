@@ -34,9 +34,10 @@
 }
 
 .colour-tag {
-  background: var(--main-accent);
+  background: transparent;
   color: var(--main-text-light);
   padding: 0.3rem 0.8rem;
+  border: 2px solid white;
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 600;
