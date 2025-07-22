@@ -1,21 +1,54 @@
 :root {
+  /* PALETTE - MAIN */
 
-/* PALETTE - MAIN */
+  --main-accent: #f2766b;
+  --main-secondary: #586166;
+  --main-tertiary: #ecc5c1;
+  --main-dark: #081b26;
+  --main-text-dark: #222;
+  --main-text-light: #f7f7f7;
 
---main-accent: #f2766b;
---main-secondary: #586166;
---main-tertiary: #ecc5c1;
---main-dark: #081b26;
---main-text-dark: #222;
---main-text-light: #f7f7f7;
+  /* PALETTE - ALTERNATES */
+  --alt-one: #ef6351;
+  --alt-two: #f2766b;
+  --alt-three: #f7a399;
+  --alt-four: #fbc3bc;
+  --alt-five: #ffe3e0;
 
-/* PALETTE - ALTERNATES */
---alt-one: #EF6351;
---alt-two: #f2766b;
---alt-three: #F7A399;
---alt-four: #FBC3BC;
---alt-five: #FFE3E0;
+  /* PALETTE - CATEGORY GROUPS */
+  --group-sunset: #ff6b35;
+  --group-sunset-rgba: 255, 107, 53;
 
---border-radius: 12px;
+  --group-nature: #20b2aa;
+  --group-nature-rgba: 32, 178, 170;
 
+  --group-modern: #0066cc;
+  --group-modern-rgba: 0, 102, 204;
+
+  --group-vintage: #f5deb3;
+  --group-vintage-rgba: 245, 222, 179;
+
+  --group-vibrant: #ff1493;
+  --group-vibrant-rgba: 255, 20, 147;
+
+  --group-pastel: #dda0dd;
+  --group-pastel-rgba: 221, 160, 221;
+
+  --group-monochrome: #e0f6ff;
+  --group-monochrome-rgba: 224, 246, 255;
+
+  --group-earth: #d2691e;
+  --group-earth-rgba: 210, 105, 30;
+
+  /* PALETTE - CATEGORY HOVER VARIANTS */
+  --group-sunset-hover: #e55a2b;
+  --group-nature-hover: #1a9d96;
+  --group-modern-hover: #0052a3;
+  --group-vintage-hover: #f0d490;
+  --group-vibrant-hover: #e6127a;
+  --group-pastel-hover: #d591d5;
+  --group-monochrome-hover: #cceeff;
+  --group-earth-hover: #b8591a;
+
+  --border-radius: 12px;
 }

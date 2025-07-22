@@ -104,152 +104,152 @@
 
 /* Category-specific hover styles for colour sets */
 .colour-set.sunset:hover {
-  border-color: #ff6b35;
+  border-color: var(--group-sunset);
 }
 
 .colour-set.nature:hover {
-  border-color: #20b2aa;
+  border-color: var(--group-nature);
 }
 
 .colour-set.modern:hover {
-  border-color: #0066cc;
+  border-color: var(--group-modern);
 }
 
 .colour-set.vintage:hover {
-  border-color: #f5deb3;
+  border-color: var(--group-vintage);
 }
 
 .colour-set.vibrant:hover {
-  border-color: #ff1493;
+  border-color: var(--group-vibrant);
 }
 
 .colour-set.pastel:hover {
-  border-color: #dda0dd;
+  border-color: var(--group-pastel);
 }
 
 .colour-set.monochrome:hover {
-  border-color: #e0f6ff;
+  border-color: var(--group-monochrome);
 }
 
 .colour-set.earth:hover {
-  border-color: #d2691e;
+  border-color: var(--group-earth);
 }
 
 /* Category-specific button styles */
 .action-button.primary.sunset {
-  background: #ff6b35;
+  background: var(--group-sunset);
 }
 
 .action-button.primary.sunset:hover {
-  background: #e55a2b;
-  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+  background: var(--group-sunset-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-sunset-rgba), 0.3);
 }
 
 .action-button.primary.nature {
-  background: #20b2aa;
+  background: var(--group-nature);
 }
 
 .action-button.primary.nature:hover {
-  background: #1a9d96;
-  box-shadow: 0 4px 12px rgba(32, 178, 170, 0.3);
+  background: var(--group-nature-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-nature-rgba), 0.3);
 }
 
 .action-button.primary.modern {
-  background: #0066cc;
+  background: var(--group-modern);
 }
 
 .action-button.primary.modern:hover {
-  background: #0052a3;
-  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+  background: var(--group-modern-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-modern-rgba), 0.3);
 }
 
 .action-button.primary.vintage {
-  background: #f5deb3;
+  background: var(--group-vintage);
   color: var(--main-dark);
 }
 
 .action-button.primary.vintage:hover {
-  background: #f0d490;
-  box-shadow: 0 4px 12px rgba(245, 222, 179, 0.3);
+  background: var(--group-vintage-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-vintage-rgba), 0.3);
 }
 
 .action-button.primary.vibrant {
-  background: #ff1493;
+  background: var(--group-vibrant);
 }
 
 .action-button.primary.vibrant:hover {
-  background: #e6127a;
-  box-shadow: 0 4px 12px rgba(255, 20, 147, 0.3);
+  background: var(--group-vibrant-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-vibrant-rgba), 0.3);
 }
 
 .action-button.primary.pastel {
-  background: #dda0dd;
+  background: var(--group-pastel);
   color: var(--main-dark);
 }
 
 .action-button.primary.pastel:hover {
-  background: #d591d5;
-  box-shadow: 0 4px 12px rgba(221, 160, 221, 0.3);
+  background: var(--group-pastel-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-pastel-rgba), 0.3);
 }
 
 .action-button.primary.monochrome {
-  background: #e0f6ff;
+  background: var(--group-monochrome);
   color: var(--main-dark);
 }
 
 .action-button.primary.monochrome:hover {
-  background: #cceeff;
-  box-shadow: 0 4px 12px rgba(224, 246, 255, 0.3);
+  background: var(--group-monochrome-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-monochrome-rgba), 0.3);
 }
 
 .action-button.primary.earth {
-  background: #d2691e;
+  background: var(--group-earth);
 }
 
 .action-button.primary.earth:hover {
-  background: #b8591a;
-  box-shadow: 0 4px 12px rgba(210, 105, 30, 0.3);
+  background: var(--group-earth-hover);
+  box-shadow: 0 4px 12px rgba(var(--group-earth-rgba), 0.3);
 }
 
 /* Category-specific secondary button styles */
 .action-button.secondary.sunset:hover {
-  border-color: #ff6b35;
-  background: rgba(255, 107, 53, 0.1);
+  border-color: var(--group-sunset);
+  background: rgba(var(--group-sunset-rgba), 0.1);
 }
 
 .action-button.secondary.nature:hover {
-  border-color: #20b2aa;
-  background: rgba(32, 178, 170, 0.1);
+  border-color: var(--group-nature);
+  background: rgba(var(--group-nature-rgba), 0.1);
 }
 
 .action-button.secondary.modern:hover {
-  border-color: #0066cc;
-  background: rgba(0, 102, 204, 0.1);
+  border-color: var(--group-modern);
+  background: rgba(var(--group-modern-rgba), 0.1);
 }
 
 .action-button.secondary.vintage:hover {
-  border-color: #f5deb3;
-  background: rgba(245, 222, 179, 0.1);
+  border-color: var(--group-vintage);
+  background: rgba(var(--group-vintage-rgba), 0.1);
 }
 
 .action-button.secondary.vibrant:hover {
-  border-color: #ff1493;
-  background: rgba(255, 20, 147, 0.1);
+  border-color: var(--group-vibrant);
+  background: rgba(var(--group-vibrant-rgba), 0.1);
 }
 
 .action-button.secondary.pastel:hover {
-  border-color: #dda0dd;
-  background: rgba(221, 160, 221, 0.1);
+  border-color: var(--group-pastel);
+  background: rgba(var(--group-pastel-rgba), 0.1);
 }
 
 .action-button.secondary.monochrome:hover {
-  border-color: #e0f6ff;
-  background: rgba(224, 246, 255, 0.1);
+  border-color: var(--group-monochrome);
+  background: rgba(var(--group-monochrome-rgba), 0.1);
 }
 
 .action-button.secondary.earth:hover {
-  border-color: #d2691e;
-  background: rgba(210, 105, 30, 0.1);
+  border-color: var(--group-earth);
+  background: rgba(var(--group-earth-rgba), 0.1);
 }
 
 @media (max-width: 768px) {
