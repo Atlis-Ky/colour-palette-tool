@@ -5,7 +5,7 @@ const SearchBar = ({ onSearch, searchValue }) => (
   <input
     className="searchbar"
     type="text"
-    placeholder="Search eg...."
+    placeholder="Search eg: blue, warm...."
     value={searchValue}
     onChange={(e) => onSearch(e.target.value)}
   />
