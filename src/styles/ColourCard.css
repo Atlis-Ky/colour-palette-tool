@@ -5,12 +5,12 @@
   flex: 1;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 0; /* removes individual card radius */
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: none; /* removes individual shadows to avoid visual conflicts */
+  box-shadow: none;
 }
 
-/* Keeps rounded corners only on first and last cards */
+/* keeps rounded corners only on first and last cards */
 .colour-card:first-child {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -21,14 +21,10 @@
   border-bottom-right-radius: 8px;
 }
 
-.colour-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
+
 
 .colour-card:focus {
-  outline: 3px solid var(--main-accent);
-  outline-offset: 2px;
+  outline: none;
 }
 
 .colour-overlay {
@@ -61,7 +57,7 @@
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--main-accent);
+  background: var(--main-secondary); 
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
