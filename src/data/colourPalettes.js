@@ -2,54 +2,48 @@ const colourPalettes = {
   sunset: [
     {
       id: "sunset-1",
-      name: "Evening Glow",
-      colours: ["#F3E0EC", "#EAD5E6", "#F2BEFC", "#CA9CE1", "#685F74"],
-      tags: ["purple", "pink", "warm", "romantic", "dreamy"],
-    },
-    {
-      id: "sunset-2",
       name: "Golden Hour",
       colours: ["#FF6B35", "#F7931E", "#FFD23F", "#EEE657", "#C7EFCF"],
       tags: ["orange", "yellow", "energetic", "vibrant", "bright"],
     },
     {
-      id: "sunset-3",
+      id: "sunset-2",
       name: "Twilight Dreams",
       colours: ["#4A154B", "#7B2CBF", "#9D4EDD", "#C77DFF", "#E0AAFF"],
       tags: ["purple", "deep", "mysterious", "elegant", "rich"],
     },
     {
-      id: "sunset-4",
+      id: "sunset-3",
       name: "Coral Dreams",
       colours: ["#FF6B6B", "#FF8E8E", "#FFB3B3", "#FFD9D9", "#FFF0F0"],
       tags: ["coral", "pink", "warm", "gentle", "soft"],
     },
     {
-      id: "sunset-5",
+      id: "sunset-4",
       name: "Amber Glow",
       colours: ["#FF4500", "#FF6347", "#FF7F50", "#FFA07A", "#FFE4E1"],
       tags: ["orange", "red", "fiery", "bold", "intense"],
     },
     {
-      id: "sunset-6",
+      id: "sunset-5",
       name: "Rose Gold",
       colours: ["#B76E79", "#E8A87C", "#F4C2A1", "#F9E2D2", "#FFEEE6"],
       tags: ["rose", "gold", "luxury", "elegant", "sophisticated"],
     },
     {
-      id: "sunset-7",
+      id: "sunset-6",
       name: "Peach Melba",
       colours: ["#FF6B35", "#FF8C42", "#FFAD69", "#FFC09F", "#FFE0B7"],
       tags: ["peach", "orange", "sweet", "vibrant", "cheerful"],
     },
     {
-      id: "sunset-8",
+      id: "sunset-7",
       name: "Crimson Horizon",
       colours: ["#8B0000", "#DC143C", "#FF4500", "#FF6347", "#FFA07A"],
       tags: ["red", "crimson", "dramatic", "bold", "powerful"],
     },
     {
-      id: "sunset-9",
+      id: "sunset-8",
       name: "Mauve Magic",
       colours: ["#8B7D6B", "#C4A484", "#E6B89C", "#EAD2AC", "#F4ECD8"],
       tags: ["mauve", "neutral", "sophisticated", "earthy", "muted"],
@@ -70,48 +64,36 @@ const colourPalettes = {
     },
     {
       id: "nature-3",
-      name: "Autumn Leaves",
-      colours: ["#7209B7", "#A663CC", "#4285F4", "#34A853", "#FBBC04"],
-      tags: ["mixed", "vibrant", "creative", "modern", "eclectic"],
-    },
-    {
-      id: "nature-4",
       name: "Meadow Fresh",
       colours: ["#355E3B", "#5F8A5F", "#87A96B", "#B2C8AA", "#E8F5E8"],
       tags: ["green", "fresh", "natural", "peaceful", "serene"],
     },
     {
-      id: "nature-5",
+      id: "nature-4",
       name: "Sky & Earth",
       colours: ["#87CEEB", "#98D8E8", "#A8E6CF", "#C7E9B4", "#E8F8DC"],
       tags: ["blue", "green", "sky", "earth", "harmonious"],
     },
     {
-      id: "nature-6",
-      name: "Desert Sunset",
-      colours: ["#8B4513", "#CD853F", "#F4A460", "#DEB887", "#F5DEB3"],
-      tags: ["brown", "tan", "warm", "earthy", "rustic"],
-    },
-    {
-      id: "nature-7",
+      id: "nature-5",
       name: "Tropical Lagoon",
       colours: ["#006A6B", "#40E0D0", "#48D1CC", "#00CED1", "#E0FFFF"],
       tags: ["teal", "turquoise", "tropical", "refreshing", "aquatic"],
     },
     {
-      id: "nature-8",
+      id: "nature-6",
       name: "Mountain Mist",
       colours: ["#2F4F4F", "#708090", "#B0C4DE", "#D3D3D3", "#F0F8FF"],
       tags: ["grey", "blue", "misty", "serene", "atmospheric"],
     },
     {
-      id: "nature-9",
+      id: "nature-7",
       name: "Rainforest Depths",
       colours: ["#013220", "#0B6623", "#228B22", "#90EE90", "#F0FFF0"],
       tags: ["green", "deep", "rainforest", "lush", "verdant"],
     },
     {
-      id: "nature-10",
+      id: "nature-8",
       name: "Stormy Seas",
       colours: ["#2F4F4F", "#008080", "#20B2AA", "#7FFFD4", "#F0FFFF"],
       tags: ["teal", "stormy", "ocean", "dramatic", "moody"],
@@ -150,24 +132,18 @@ const colourPalettes = {
     },
     {
       id: "modern-6",
-      name: "Greyscale",
-      colours: ["#000000", "#404040", "#808080", "#C0C0C0", "#FFFFFF"],
-      tags: ["black", "white", "grey", "classic", "timeless"],
-    },
-    {
-      id: "modern-7",
       name: "Cyberpunk",
       colours: ["#0F0F23", "#E91E63", "#00FFFF", "#8A2BE2", "#FF1493"],
       tags: ["dark", "neon", "futuristic", "tech", "edgy"],
     },
     {
-      id: "modern-8",
+      id: "modern-7",
       name: "Silicon Valley",
       colours: ["#1E1E1E", "#007ACC", "#00D4AA", "#FF6B35", "#F8F8F2"],
       tags: ["tech", "silicon", "modern", "professional", "innovative"],
     },
     {
-      id: "modern-9",
+      id: "modern-8",
       name: "Midnight Code",
       colours: ["#0D1117", "#21262D", "#30363D", "#6E7681", "#F0F6FC"],
       tags: ["dark", "code", "github", "developer", "midnight"],
@@ -194,24 +170,18 @@ const colourPalettes = {
     },
     {
       id: "vintage-4",
-      name: "Sepia Dreams",
-      colours: ["#704214", "#8B4513", "#A0522D", "#D2691E", "#F4A460"],
-      tags: ["sepia", "brown", "vintage", "photography", "antique"],
-    },
-    {
-      id: "vintage-5",
       name: "Dusty Rose",
       colours: ["#BC8F8F", "#D2B48C", "#F0E68C", "#EEE8AA", "#FFFACD"],
       tags: ["rose", "dusty", "soft", "feminine", "faded"],
     },
     {
-      id: "vintage-6",
+      id: "vintage-5",
       name: "Art Deco Gold",
       colours: ["#2C1810", "#8B4513", "#DAA520", "#F7DC6F", "#FFF8DC"],
       tags: ["gold", "deco", "luxury", "classic", "glamorous"],
     },
     {
-      id: "vintage-7",
+      id: "vintage-6",
       name: "Faded Photographs",
       colours: ["#696969", "#A9A9A9", "#D3D3D3", "#F5F5DC", "#FFFAF0"],
       tags: ["grey", "faded", "nostalgic", "photography", "memory"],
@@ -266,6 +236,12 @@ const colourPalettes = {
       colours: ["#FF1493", "#00FFFF", "#FF69B4", "#00FA9A", "#FFD700"],
       tags: ["miami", "80s", "retro", "bright", "flashy"],
     },
+    {
+      id: "vibrant-9",
+      name: "Pond Life",
+      colours: ["#7209B7", "#A663CC", "#4285F4", "#34A853", "#FBBC04"],
+      tags: ["mixed", "vibrant", "creative", "modern", "eclectic"],
+    },
   ],
   pastel: [
     {
@@ -316,6 +292,12 @@ const colourPalettes = {
       colours: ["#F0F8FF", "#E6E6FA", "#F5F5DC", "#FFF8DC", "#FFFACD"],
       tags: ["cloud", "white", "airy", "peaceful", "heavenly"],
     },
+    {
+      id: "pastel-9",
+      name: "Evening Glow",
+      colours: ["#F3E0EC", "#EAD5E6", "#F2BEFC", "#CA9CE1", "#685F74"],
+      tags: ["purple", "pink", "warm", "romantic", "dreamy"],
+    },
   ],
   monochrome: [
     {
@@ -348,6 +330,12 @@ const colourPalettes = {
       colours: ["#8B4513", "#DAA520", "#FFD700", "#FFFF99", "#FFFACD"],
       tags: ["gold", "yellow", "luxury", "warm", "radiant"],
     },
+    {
+      id: "mono-6",
+      name: "Greyscale",
+      colours: ["#000000", "#404040", "#808080", "#C0C0C0", "#FFFFFF"],
+      tags: ["black", "white", "grey", "classic", "timeless"],
+    },
   ],
   earth: [
     {
@@ -373,6 +361,18 @@ const colourPalettes = {
       name: "Autumn Harvest",
       colours: ["#8B4513", "#DAA520", "#FF8C00", "#FFD700", "#F0E68C"],
       tags: ["autumn", "harvest", "golden", "seasonal", "abundant"],
+    },
+    {
+      id: "earth-5",
+      name: "Desert Sunset",
+      colours: ["#8B4513", "#CD853F", "#F4A460", "#DEB887", "#F5DEB3"],
+      tags: ["brown", "tan", "warm", "earthy", "rustic"],
+    },
+    {
+      id: "earth-6",
+      name: "Sepia Dreams",
+      colours: ["#704214", "#8B4513", "#A0522D", "#D2691E", "#F4A460"],
+      tags: ["sepia", "brown", "vintage", "photography", "antique"],
     },
   ],
 };
