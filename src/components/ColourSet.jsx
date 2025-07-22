@@ -6,6 +6,13 @@ const ColourSet = ({ palette }) => {
   const [copiedCSS, setCopiedCSS] = useState(false);
   const [copiedJSON, setCopiedJSON] = useState(false);
 
+  // Extracts category from palette ID
+  const getCategory = (id) => {
+    return id.split("-")[0];
+  };
+
+  const category = getCategory(palette.id);
+
   const copyCSS = async () => {
     const cssContent = `:root {
   --colour-one: ${palette.colours[0]};
@@ -50,7 +57,7 @@ const ColourSet = ({ palette }) => {
   };
 
   return (
-    <div className="colour-set">
+    <div className={`colour-set ${category}`}>
       <div className="colour-set-header">
         <h3 className="colour-set-name">{palette.name}</h3>
         <div className="colour-set-tags">
@@ -73,10 +80,16 @@ const ColourSet = ({ palette }) => {
       </div>
 
       <div className="colour-set-actions">
-        <button className="action-button primary" onClick={copyCSS}>
+        <button
+          className={`action-button primary ${category}`}
+          onClick={copyCSS}
+        >
           <span>{copiedCSS ? "Copied!" : "Copy CSS"}</span>
         </button>
-        <button className="action-button secondary" onClick={copyJSON}>
+        <button
+          className={`action-button secondary ${category}`}
+          onClick={copyJSON}
+        >
           <span>{copiedJSON ? "Copied!" : "Copy JSON"}</span>
         </button>
       </div>
