@@ -148,6 +148,12 @@ const colourPalettes = {
       colours: ["#0D1117", "#21262D", "#30363D", "#6E7681", "#F0F6FC"],
       tags: ["dark", "code", "github", "developer", "midnight"],
     },
+    {
+      id: "modern-9",
+      name: "Atlis-Ky Theme",
+      colours: ["#081b26", "#586166", "#f2766b", "#ecc5c1", "#F0F6FC"],
+      tags: ["custom", "pink", "atlis", "this website", "modern"],
+    },
   ],
   vintage: [
     {

@@ -13,7 +13,7 @@ const Footer = () => (
       >
         Atlis-Ky
       </a>
-      . Got any issues or feedback? Let me know in the github repo. Thanks for
+      . Got any issues or feedback? Let me know in the github repo. Bonus points if you found the palette I made for this website hehe. Thanks for
       stopping by!
     </div>
   </footer>
