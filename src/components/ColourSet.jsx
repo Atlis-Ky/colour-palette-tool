@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ColourCard from "./ColourCard";
 import "../styles/ColourSet.css";
 

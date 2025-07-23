@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ColourSet from "./ColourSet";
 import colourPalettes from "../data/colourPalettes";
 import "../styles/ColourPalettes.css";
