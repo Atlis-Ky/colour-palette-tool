@@ -307,37 +307,37 @@ const colourPalettes = {
   ],
   monochrome: [
     {
-      id: "mono-1",
+      id: "monochrome-1",
       name: "Shades of Blue",
       colours: ["#000080", "#0000CD", "#4169E1", "#6495ED", "#E0F6FF"],
       tags: ["blue", "monochrome", "gradient", "professional", "oceanic"],
     },
     {
-      id: "mono-2",
+      id: "monochrome-2",
       name: "Forest Greens",
       colours: ["#013220", "#228B22", "#32CD32", "#90EE90", "#F0FFF0"],
       tags: ["green", "forest", "natural", "monochrome", "growth"],
     },
     {
-      id: "mono-3",
+      id: "monochrome-3",
       name: "Crimson Cascade",
       colours: ["#8B0000", "#DC143C", "#FF6347", "#FFA07A", "#FFE4E1"],
       tags: ["red", "crimson", "warm", "bold", "passionate"],
     },
     {
-      id: "mono-4",
+      id: "monochrome-4",
       name: "Purple Reign",
       colours: ["#4B0082", "#8A2BE2", "#9370DB", "#DDA0DD", "#F8F8FF"],
       tags: ["purple", "royal", "elegant", "luxurious", "majestic"],
     },
     {
-      id: "mono-5",
+      id: "monochrome-5",
       name: "Golden Gradient",
       colours: ["#8B4513", "#DAA520", "#FFD700", "#FFFF99", "#FFFACD"],
       tags: ["gold", "yellow", "luxury", "warm", "radiant"],
     },
     {
-      id: "mono-6",
+      id: "monochrome-6",
       name: "Greyscale",
       colours: ["#000000", "#404040", "#808080", "#C0C0C0", "#FFFFFF"],
       tags: ["black", "white", "grey", "classic", "timeless"],

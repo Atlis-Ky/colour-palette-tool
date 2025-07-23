@@ -76,7 +76,7 @@
 
 .category-filter.sunset.active {
   background: var(--group-sunset);
-  box-shadow: 0 4px 12px rgba(var(--group-sunset-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
 }
 
 .category-filter.nature:hover,
@@ -86,7 +86,7 @@
 
 .category-filter.nature.active {
   background: var(--group-nature);
-  box-shadow: 0 4px 12px rgba(var(--group-nature-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(32, 178, 170, 0.3);
 }
 
 .category-filter.modern:hover,
@@ -96,7 +96,7 @@
 
 .category-filter.modern.active {
   background: var(--group-modern);
-  box-shadow: 0 4px 12px rgba(var(--group-modern-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
 }
 
 .category-filter.vintage:hover,
@@ -107,7 +107,7 @@
 .category-filter.vintage.active {
   background: var(--group-vintage);
   color: var(--main-dark);
-  box-shadow: 0 4px 12px rgba(var(--group-vintage-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(245, 222, 179, 0.3);
 }
 
 .category-filter.vibrant:hover,
@@ -117,7 +117,7 @@
 
 .category-filter.vibrant.active {
   background: var(--group-vibrant);
-  box-shadow: 0 4px 12px rgba(var(--group-vibrant-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(255, 20, 147, 0.3);
 }
 
 .category-filter.pastel:hover,
@@ -128,7 +128,7 @@
 .category-filter.pastel.active {
   background: var(--group-pastel);
   color: var(--main-dark);
-  box-shadow: 0 4px 12px rgba(var(--group-pastel-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(221, 160, 221, 0.3);
 }
 
 .category-filter.monochrome:hover,
@@ -139,7 +139,7 @@
 .category-filter.monochrome.active {
   background: var(--group-monochrome);
   color: var(--main-dark);
-  box-shadow: 0 4px 12px rgba(var(--group-monochrome-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(224, 246, 255, 0.3);
 }
 
 .category-filter.earth:hover,
@@ -149,7 +149,7 @@
 
 .category-filter.earth.active {
   background: var(--group-earth);
-  box-shadow: 0 4px 12px rgba(var(--group-earth-rgba), 0.3);
+  box-shadow: 0 4px 12px rgba(210, 105, 30, 0.3);
 }
 
 .palettes-grid {
