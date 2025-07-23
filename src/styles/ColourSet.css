@@ -251,6 +251,39 @@
   background: rgba(210, 105, 30, 0.1);
 }
 
+/* Category-specific tag styles */
+.colour-set.sunset .colour-tag {
+  border-color: var(--group-sunset);
+}
+
+.colour-set.nature .colour-tag {
+  border-color: var(--group-nature);
+}
+
+.colour-set.modern .colour-tag {
+  border-color: var(--group-modern);
+}
+
+.colour-set.vintage .colour-tag {
+  border-color: var(--group-vintage);
+}
+
+.colour-set.vibrant .colour-tag {
+  border-color: var(--group-vibrant);
+}
+
+.colour-set.pastel .colour-tag {
+  border-color: var(--group-pastel);
+}
+
+.colour-set.monochrome .colour-tag {
+  border-color: var(--group-monochrome);
+}
+
+.colour-set.earth .colour-tag {
+  border-color: var(--group-earth);
+}
+
 @media (max-width: 768px) {
   .colour-set {
     padding: 1rem;
