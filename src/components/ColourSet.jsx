@@ -7,11 +7,7 @@ const ColourSet = ({ palette }) => {
   const [copiedJSON, setCopiedJSON] = useState(false);
 
   // Extracts category from palette ID
-  const getCategory = (id) => {
-    return id.split("-")[0];
-  };
-
-  const category = getCategory(palette.id);
+  const category = palette.id.split("-")[0];
 
   const copyCSS = async () => {
     const cssContent = `:root {
@@ -90,7 +86,7 @@ const ColourSet = ({ palette }) => {
           className={`action-button secondary ${category}`}
           onClick={copyJSON}
         >
-          <span>{copiedJSON ? "Copied!" : "Copy JSON"}</span>
+          {copiedJSON ? "Copied!" : "Copy JSON"}
         </button>
       </div>
     </div>

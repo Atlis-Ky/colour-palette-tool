@@ -51,7 +51,7 @@ const ColourPalettes = ({ searchTerm }) => {
             }`}
             onClick={() => setSelectedCategory(category)}
           >
-            {category.charAt(0).toUpperCase() + category.slice(1)}
+            {category}
           </button>
         ))}
       </div>

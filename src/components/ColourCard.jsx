@@ -19,7 +19,6 @@ const ColourCard = ({ colour, index }) => {
       className="colour-card"
       style={{ backgroundColor: colour }}
       onClick={handleClick}
-      role="button"
       tabIndex={0}
       onKeyDown={(e) => e.key === "Enter" && handleClick()}
     >
