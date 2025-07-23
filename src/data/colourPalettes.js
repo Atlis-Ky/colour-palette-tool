@@ -112,44 +112,39 @@ const colourPalettes = {
       colours: ["#1A1A2E", "#16213E", "#E94560", "#F5F5F5", "#0F3460"],
       tags: ["dark", "tech", "modern", "bold", "futuristic"],
     },
+
     {
       id: "modern-3",
-      name: "Pastel Dreams",
-      colours: ["#FFE5E5", "#FFF0F5", "#E5F3FF", "#F0F8FF", "#F5F5DC"],
-      tags: ["pastel", "soft", "gentle", "light", "airy"],
-    },
-    {
-      id: "modern-4",
       name: "Neon Nights",
       colours: ["#FF073A", "#FF6B35", "#39FF14", "#1B9CFC", "#8E44AD"],
       tags: ["neon", "bright", "electric", "bold", "vivid"],
     },
     {
-      id: "modern-5",
+      id: "modern-4",
       name: "Corporate Blue",
       colours: ["#003366", "#0066CC", "#3399FF", "#66B2FF", "#CCE7FF"],
       tags: ["blue", "professional", "corporate", "trust", "reliable"],
     },
     {
-      id: "modern-6",
+      id: "modern-5",
       name: "Cyberpunk",
       colours: ["#0F0F23", "#E91E63", "#00FFFF", "#8A2BE2", "#FF1493"],
       tags: ["dark", "neon", "futuristic", "tech", "edgy"],
     },
     {
-      id: "modern-7",
+      id: "modern-6",
       name: "Silicon Valley",
       colours: ["#1E1E1E", "#007ACC", "#00D4AA", "#FF6B35", "#F8F8F2"],
       tags: ["tech", "silicon", "modern", "professional", "innovative"],
     },
     {
-      id: "modern-8",
+      id: "modern-7",
       name: "Midnight Code",
       colours: ["#0D1117", "#21262D", "#30363D", "#6E7681", "#F0F6FC"],
       tags: ["dark", "code", "github", "developer", "midnight"],
     },
     {
-      id: "modern-9",
+      id: "modern-8",
       name: "Atlis-Ky Theme",
       colours: ["#081b26", "#586166", "#f2766b", "#ecc5c1", "#F0F6FC"],
       tags: ["custom", "pink", "atlis", "this website", "modern"],
@@ -191,6 +186,18 @@ const colourPalettes = {
       name: "Faded Photographs",
       colours: ["#696969", "#A9A9A9", "#D3D3D3", "#F5F5DC", "#FFFAF0"],
       tags: ["grey", "faded", "nostalgic", "photography", "memory"],
+    },
+    {
+      id: "vintage-7",
+      name: "Weathered Wood",
+      colours: ["#654321", "#8B7355", "#D2B48C", "#DEB887", "#F5DEB3"],
+      tags: ["wood", "weathered", "natural", "aged", "rustic"],
+    },
+    {
+      id: "vintage-8",
+      name: "Faded Florals",
+      colours: ["#8FBC8F", "#DDA0DD", "#F0E68C", "#F5DEB3", "#FFF8DC"],
+      tags: ["floral", "faded", "soft", "vintage", "romantic"],
     },
   ],
   vibrant: [
@@ -241,12 +248,6 @@ const colourPalettes = {
       name: "Miami Vice",
       colours: ["#FF1493", "#00FFFF", "#FF69B4", "#00FA9A", "#FFD700"],
       tags: ["miami", "80s", "retro", "bright", "flashy"],
-    },
-    {
-      id: "vibrant-9",
-      name: "Pond Life",
-      colours: ["#7209B7", "#A663CC", "#4285F4", "#34A853", "#FBBC04"],
-      tags: ["mixed", "vibrant", "creative", "modern", "eclectic"],
     },
   ],
   pastel: [
@@ -304,6 +305,12 @@ const colourPalettes = {
       colours: ["#F3E0EC", "#EAD5E6", "#F2BEFC", "#CA9CE1", "#685F74"],
       tags: ["purple", "pink", "warm", "romantic", "dreamy"],
     },
+    {
+      id: "pastel-10",
+      name: "Pastel Dreams",
+      colours: ["#FFE5E5", "#FFF0F5", "#E5F3FF", "#F0F8FF", "#F5F5DC"],
+      tags: ["pastel", "soft", "gentle", "light", "airy"],
+    },
   ],
   monochrome: [
     {
@@ -341,6 +348,18 @@ const colourPalettes = {
       name: "Greyscale",
       colours: ["#000000", "#404040", "#808080", "#C0C0C0", "#FFFFFF"],
       tags: ["black", "white", "grey", "classic", "timeless"],
+    },
+    {
+      id: "monochrome-7",
+      name: "Teal Depths",
+      colours: ["#2F4F4F", "#008080", "#20B2AA", "#48D1CC", "#E0FFFF"],
+      tags: ["teal", "depths", "ocean", "monochrome", "calming"],
+    },
+    {
+      id: "monochrome-8",
+      name: "Pink Gradient",
+      colours: ["#8B008B", "#FF1493", "#FF69B4", "#FFB6C1", "#FFF0F5"],
+      tags: ["pink", "gradient", "feminine", "monochrome", "romantic"],
     },
   ],
   earth: [
