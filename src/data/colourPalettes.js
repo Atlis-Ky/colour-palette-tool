@@ -115,9 +115,9 @@ const colourPalettes = {
 
     {
       id: "modern-3",
-      name: "Neon Nights",
-      colours: ["#FF073A", "#FF6B35", "#39FF14", "#1B9CFC", "#8E44AD"],
-      tags: ["neon", "bright", "electric", "bold", "vivid"],
+      name: "sleek blues",
+      colours: ["#1E1E1E", "#2D2D30", "#569CD6", "#9CDCFE", "#F8F8F2"],
+      tags: ["blue", "code", "developer", "clean", "professional"],
     },
     {
       id: "modern-4",
@@ -127,9 +127,9 @@ const colourPalettes = {
     },
     {
       id: "modern-5",
-      name: "Cyberpunk",
-      colours: ["#0F0F23", "#E91E63", "#00FFFF", "#8A2BE2", "#FF1493"],
-      tags: ["dark", "neon", "futuristic", "tech", "edgy"],
+      name: "Slate & Steel",
+  colours: ["#2F3349", "#475569", "#64748B", "#94A3B8", "#E2E8F0"],
+  tags: ["slate", "steel", "neutral", "professional", "contemporary"],
     },
     {
       id: "modern-6",
@@ -233,9 +233,9 @@ const colourPalettes = {
     },
     {
       id: "vibrant-6",
-      name: "Cosmic Energy",
-      colours: ["#8E2DE2", "#4A00E0", "#FF0080", "#FF8C00", "#32CD32"],
-      tags: ["cosmic", "space", "energy", "futuristic", "otherworldly"],
+      name: "Cyberpunk",
+      colours: ["#0F0F23", "#E91E63", "#00FFFF", "#8A2BE2", "#FF1493"],
+      tags: ["dark", "neon", "futuristic", "tech", "edgy"],
     },
     {
       id: "vibrant-7",
