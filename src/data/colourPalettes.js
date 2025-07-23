@@ -44,9 +44,9 @@ const colourPalettes = {
     },
     {
       id: "sunset-8",
-      name: "Mauve Magic",
-      colours: ["#8B7D6B", "#C4A484", "#E6B89C", "#EAD2AC", "#F4ECD8"],
-      tags: ["mauve", "neutral", "sophisticated", "earthy", "muted"],
+      name: "Golden Horizon",
+      colours: ["#B8860B", "#DAA520", "#FFD700", "#FFFF99", "#FFFACD"],
+      tags: ["golden", "yellow", "horizon", "radiant", "luminous"],
     },
   ],
   nature: [
@@ -128,8 +128,8 @@ const colourPalettes = {
     {
       id: "modern-5",
       name: "Slate & Steel",
-  colours: ["#2F3349", "#475569", "#64748B", "#94A3B8", "#E2E8F0"],
-  tags: ["slate", "steel", "neutral", "professional", "contemporary"],
+      colours: ["#2F3349", "#475569", "#64748B", "#94A3B8", "#E2E8F0"],
+      tags: ["slate", "steel", "neutral", "professional", "contemporary"],
     },
     {
       id: "modern-6",
