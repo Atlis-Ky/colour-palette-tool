@@ -73,8 +73,8 @@ const ColourPalettes = ({ searchTerm }) => {
           <div className="no-results">
             <p>No palettes found matching "{searchTerm}"</p>
             <p>
-              Try searching for colors like "blue", "green", or styles like
-              "modern", "vintage"
+              Try searching for colours like "blue", "green", or by theme eg:
+              "modern", "vintage".
             </p>
           </div>
         ) : null}
